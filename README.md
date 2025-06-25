@@ -30,14 +30,14 @@ Follow these steps to get the Chain-of-Thought LLM Agent running locally:
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 
-3. Create a virtual environment (optional but recommended)
-4. 
-python -m venv venv
-source venv/bin/activate    # On Windows powershell : venv\Scripts\Activate.ps1
-5. Install dependencies
+2. Create a virtual environment (optional but recommended)
+   python -m venv venv
+   source venv/bin/activate    # On Windows powershell : venv\Scripts\Activate.ps1
+
+3. Install dependencies
 pip install -r requirements.txt
 
-7. Set API keys (if needed)
+4. Set API keys (if needed)
 If you’re using external tools (e.g., SerpAPI, StabilityAI), set your API keys in the environment or directly in code (not recommended for production):
 
 export SERPAPI_API_KEY="your_key_here"
