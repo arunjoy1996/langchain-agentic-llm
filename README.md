@@ -47,10 +47,12 @@ export STABILITY_API_KEY="your_key_here"
 
 
 uvicorn main:app --reload --port 8001
+
 6. Run the Streamlit frontend
 In a new terminal tab or window:
 
 streamlit run app.py or  python -m streamlit run frontend.py
+
 7. Open the app in your browser
 Go to: http://localhost:8501
 
