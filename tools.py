@@ -27,7 +27,7 @@ def generate_image(query: str) -> str:
     """ Generates an image based on a query and returns the output path"""
     # Initialize the client
     stability_api = client.StabilityInference(
-        key="sk-J8PRttSbFDFEc49be6SvCFUYlbr887uVEIxGBkfi2SVD5Zka",  # Get from https://dreamstudio.ai/
+        key="",  # Get from https://dreamstudio.ai/
         engine="stable-diffusion-xl-1024-v1-0",  # Engine for SDXL
     )
 
